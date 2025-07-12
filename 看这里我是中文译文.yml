@@ -1,0 +1,18 @@
+use_netty_dns_resolver: true#
+设置是否使用 Netty 的异步 DNS 解析器进行帐户身份验证。
+disable_modern_tab_limiter: true#
+禁用 1.13+ 客户端的 Tab 键完成限制。
+log_initial_handler_connections: true#
+设置是否记录 InitialHandler 连接。
+throttling: 1000#
+以毫秒为单位发送 Tab 键完成数据包的频率。
+game_version: ""#
+向客户端显示的受支持版本。默认为受支持版本的逗号分隔列表。例如 1.8.x、1.9.x、1.10.x
+disable_tab_list_rewrite: true#
+此设置将禁用 tablist 重写，这可能会解决 Waterfall 处于离线模式时设置玩家配置文件的问题。
+disable_entity_metadata_rewrite: false#
+此设置禁用实体元数据重写，以便将加入数据包发送到客户端。它为 Mod 环境提供了更强大的解决方案，但可能会导致插件崩溃。
+plugin_channel_name_limit: 128#
+最大通道标识符长度。可能对某些损坏的 Mod 有用。
+registered_plugin_channels_limit: 128#
+一个连接的已注册插件通道的最大数量。由 Mod 和一些插件使用。可能有助于修复某些损坏的 modpack。
